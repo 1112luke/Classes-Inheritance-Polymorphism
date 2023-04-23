@@ -20,6 +20,8 @@ public:
         year = y;
     }
 
+    void displayInfo();
+
     int getYear();
     void setYear(int);
 
