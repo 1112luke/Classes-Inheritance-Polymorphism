@@ -7,3 +7,8 @@ void Car::setDoors(int d) {
 int Car::getDoors() {
 	return doors;
 }
+
+void Car::displayInfo() {
+	Vehicle::displayInfo();
+	cout << endl << "Doors: " << doors;
+}

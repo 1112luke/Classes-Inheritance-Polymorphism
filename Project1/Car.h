@@ -15,6 +15,8 @@ class Car : public Vehicle {
 		
 		int getDoors();
 		void setDoors(int);
+
+		void displayInfo();
 };
 
 #endif
